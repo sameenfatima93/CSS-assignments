@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "play";
+    src: url(font/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: "lora";
+    src: url(font/Lora-SemiBoldItalic.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+div.main {
+    position: relative;
+    height: 750px;
+    width: 100%;
+    align-items: center;
+    background-image: url(images/General-Sherman-tree_2000x.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.overly {
+    height: 750px;
+    width: 100%;
+    background-color: rgb(15, 15, 15);
+    opacity: .4;
+    position: absolute;
+    top: 0;
+
+}
+
+
+h1 {
+    font-size: 45px;
+    margin: 0;
+    padding: 20px 0;
+    /* Optional spacing */
+    text-align: center;
+    font-family: "lora";
+    color: rgb(0, 0, 0);
+    text-decoration: underline green;
+    position: relative;
+    /*REQUIRED for z-index to work*/
+    z-index: 2;
+    background-color: rgba(253, 253, 253, 0.511);
+    text-transform: capitalize;
+    
+}
+table{
+    margin-top: 30px;
+     border-spacing: 10px;
+     position: relative;
+     z-index: 2;
+}
+
+td{
+    padding: 20px 25px 0px 25px;
+    background-color: rgb(215, 209, 203);
+    
+}
+.para-one>p{
+    width: 350px;
+    text-align: center;
+    font-family: 'Arial Narrow Bold', sans-serif;
+   
+}
+.para-one{
+ /* justify-content: center;
+    align-items: center; */
+    text-align: center;
+}
+h2{
+    font-family: "lora";
+    text-decoration: 3px solid underline green;
+    color: rgb(6, 14, 14);
+}
+span{
+    color: rgb(6, 138, 6);
+}
+
+/*
+h2{
+    font-family: "play";
+    color:rgb(18, 56, 18);
+    height: 19px; 
+    width: 300px;
+} */
