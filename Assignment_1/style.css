@@ -82,5 +82,11 @@ h2{
 }
 span{
     color: rgb(6, 138, 6);
+    font-style:oblique;
 }
-
+.lora {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
