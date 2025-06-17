@@ -1,0 +1,163 @@
+body{
+    box-sizing: border-box;
+}
+
+input{
+    height: 45px;
+    width: 680px;
+    border-radius: 50px;
+    border:1px solid rgb(190, 190, 190);
+    font-size: 18px;
+    text-indent: 10px;  
+    margin-left: 50px;
+}
+
+.icon{
+    position: relative;
+    right: 38px;
+    top: 8px;
+}
+.mike{
+    position: relative;
+    top: 9px;
+}
+.BTN{
+    height: 40px;
+    width: 90px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(219, 217, 217, 0.479);
+    cursor: pointer;
+    margin-left: 30px;
+}
+.BTN:hover{
+    background-color:rgba(219, 217, 217, 0.767) ;
+}
+.bell{
+    position: relative;
+    top: 19px;
+}
+.me{
+    position: relative;
+    top: 20px;
+}
+/* nav item start */
+.nav-iteme{
+    height: 50px;
+}
+.all{
+    height: 40px;
+    width: 90px;
+    border: none;
+    border-radius: 10px;
+    /* object-fit: fill; */
+}
+.nav-iteme img{
+    position: relative;
+    top: 20px;
+}
+.one{
+    margin-left: 50px;
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 40px;
+}
+.Music, .Live, .Mixes , .film , .News{
+    
+    width: 50px;
+} 
+.sunny{
+    width: 110px;
+} 
+.disney{
+    width: 110px;
+}
+#side-btn{
+    /* position: relative;
+    top: 15px; */
+    position: absolute;
+    top: 21%;
+}
+.sidebar{
+    height: 400px;
+    width: 100%;
+    /* border: 3px solid brown; */
+    margin-top: 20px;
+    padding-right: 30px;
+}
+.sidebar img{
+    /* border: 3px solid black; */
+    cursor: pointer;
+    margin-top: -30px;
+    /* margin-left: 40px; */ 
+}
+.sidebar iframe{
+    /* border: 3px solid green; */
+    margin-bottom: 40px;
+}
+#sir-pic, #mansor-pic , #commorce-sir{
+    margin-left: 220px;
+}
+/* div.dott{
+    margin-top: 50%;
+} */
+
+/* .text-container{
+    display:flex;
+    /* margin-left: 20px; */
+
+   
+/* } *
+ .first-row-text{ */
+    /* text-indent: 90px; */
+    /* align-items: center; */
+    /* text-align: center; */
+    /* height: 60px; */
+    /* width: 42%; */
+    /* border: 3px solid red; */
+    /* margin-top:  -40px; */
+    /* padding: 0px; */
+    /* margin-left: 220px; */
+    /* padding-left: 60px; */
+ /* } */
+ /* .text-first{
+    margin-top: -40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 19px;
+    margin-left: 160px; */
+    /* padding-left: 50px; */
+    /* line-height: 40px; */
+    /* cursor: pointer; */
+    /* height: 100px;
+    width: 300px;
+    border: 3px solid yellow;
+    position: relative;
+    left: 120px;
+ } */
+.mansore ,.css-course , .saddam, .news1{
+    border-radius: 20px;
+    margin-right: 8px;
+
+}
+.commerce {
+    margin-right: 10px;
+}
+.news1{
+    margin: 50px 9px ;
+}
+/* #1st-nws iframe{
+    margin-left: -40px;
+} */
+/* .css-course{
+    margin-left: 70px;
+} */
+.second-sidebar img{
+    cursor: pointer;
+}
+.embade{
+    height: 300px;
+    width: 1280px;
+    /* border: 3px solid red; */
+    margin-left: 13%;
+}
