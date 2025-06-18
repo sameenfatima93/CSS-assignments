@@ -1,0 +1,43 @@
+/* we learn box width and height */
+
+/* div.box{
+    height: 300px;
+    width: 300px;
+    background-color: #abab3e;
+}
+p{
+    height: 75%;
+    width: 75%;
+    background-color: darkcyan;
+
+} */
+
+
+/* we learn min-width and max-width */
+
+/* td.discription{ */
+/* min-width: 450px; if we use min-width thats mean is sy ziada chota howa screen ka size to text wrap hona chor dyga agr mon-width nhi lgaty to text screen ky saiz ky sath wrap hota rhy ga jesy  simatta rhy ga */
+
+/* max-width: 650px; screen ka size itna rhy ga bhaly woh jitny bri ho jaye */
+/* text-align: left;
+    padding: 5px;
+    margin: 0px; */
+/* } */
+
+/* we learn min-height and max-height */
+
+/* h2,
+p {
+    width: 400px;
+    font-size: 90%;
+    line-height: 1.2em;
+}
+
+h2 {
+    color: rgb(8, 59, 59);
+    border-bottom: 1px solid rgb(19, 19, 1);
+}
+p {
+min-height: 10px;
+max-height: 30px;
+} */
