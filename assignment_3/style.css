@@ -1,0 +1,68 @@
+@font-face {
+    font-family: neto;
+    src: url(static/NotoSerif-Italic.ttf);
+}
+@font-face {
+    font-family: curve;
+    src: url(static/Caveat-Regular.ttf);
+}
+body{
+    background-image: url(images/green-cup.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size:50px;
+    font-family: neto;
+    color: teal;
+    text-shadow: 5px 5px rgb(157, 175, 175);
+    text-align: center;
+    /* border-top-width: px;
+    border-top-color: black;
+    border-top-style: groove; */
+    text-decoration: underline ;
+}
+h1:hover{
+    color: rgb(156, 144, 128);  
+}
+.container{
+    text-align: center; 
+}
+div > p{
+    display: inline-block;
+    vertical-align: top;
+}
+p{
+    height: 300px;
+    max-width: 300px;
+    /* max-height: 300px; */
+    /* min-width: 100px; */
+    /* min-height: fit-content; */
+    font-family: curve;
+    font-size: 26px;
+    color:hsl(120, 40%, 30%);
+    text-align: center;
+    box-shadow: rgba(31, 76, 23, 0.2) 0px 7px 29px 0px;
+    background-color: aliceblue;
+    margin: 40px 20px ;
+    padding: 12px;
+    text-indent: 40px;
+    border: 10px outset teal ;
+    text-wrap-style: pretty;
+}
+p::first-letter{
+    font-family: neto;
+    font-size: 36px;
+}
+p:hover{
+    background-color: rgb(156, 144, 128);
+    border-width: 16px;
+    border-style: groove;
+    border-color: rgba(207, 205, 191, 0.438);
+    border-radius: 6%;
+    color:rgb(240, 237, 232) ;
+
+}
+
+
