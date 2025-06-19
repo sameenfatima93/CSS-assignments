@@ -1,0 +1,183 @@
+@font-face {
+    font-family: roboto;
+    src: url(static/RobotoSlab-Regular.ttf);
+}
+
+body {
+    background-image: url(images/nature.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .8;
+
+}
+
+div.main {
+    height: 550px;
+    width: 980px;
+    background-color: rgba(72, 111, 156, 0.719);
+    margin: 10% auto;
+    border-radius: 20px;
+
+}
+
+h1 {
+    background-color: rgba(52, 110, 175, 0.719);
+    font-family: roboto;
+    justify-content: left;
+    padding-left: 9px;
+    padding-bottom: 9px;
+    font-size: 28;
+    border-radius: 20px 20px 0px 0px;
+}
+
+img.arrow {
+    margin-left: 65%;
+    margin-top: 9px;
+}
+
+h1:hover {
+    color: aliceblue;
+    transition: 3s;
+    transform: scale(1.05);
+    text-decoration: underline white;
+}
+
+tr.even {
+    background-color: rgba(241, 220, 220, 0.622);
+}
+
+tr.odd {
+    background-color: aliceblue;
+}
+
+table {
+     /* height: 450px; */
+    width: 920px; 
+    border-radius: 10px;
+    background-color: beige;
+    margin: auto;
+    margin: auto;
+    padding: 0;
+    table-layout: auto;
+    border-collapse: collapse;
+        
+}
+
+th {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 20px;
+    text-align: left;
+    text-transform: uppercase;
+    border-top-right-radius: 10px;
+     border-top-left-radius: 10px; 
+}
+
+td {
+    padding: 10px 20px;
+    text-align: left;
+    text-transform: capitalize;
+    padding-left: 10px;
+}
+span{
+    /* padding-left: 15px; */
+     position: relative;
+     bottom: 10px;
+}
+/* button.green{
+    height: 30px;
+    width: 100px; */
+    /* margin-left: 30px; */
+    
+
+/* } */
+button.green {
+  height: 30px;
+  width: 100px;
+  /* margin-left: 30px;  ❌ Remove this */
+  display: block;
+  margin: 0 auto; /* center horizontally inside td */
+  border-radius: 30px;
+  background-color: rgb(24, 209, 147);
+  border: none;
+}
+button.red {
+  height: 30px;
+  width: 100px;
+  /* margin-left: 30px;  ❌ Remove this */
+  display: block;
+  margin: 0 auto; /* center horizontally inside td */
+  border-radius: 30px;
+  background-color: rgb(223, 66, 34);
+  border: none;
+}
+button.blue {
+  height: 30px;
+  width: 100px;
+  /* margin-left: 30px;  ❌ Remove this */
+  display: block;
+  margin: 0 auto; /* center horizontally inside td */
+  border-radius: 30px;
+  background-color: rgb(80, 176, 228);
+  border: none;
+}
+button.orange {
+  height: 30px;
+  width: 100px;
+  /* margin-left: 30px;  ❌ Remove this */
+  display: block;
+  margin: 0 auto; /* center horizontally inside td */
+  border-radius: 30px;
+  background-color: rgba(183, 167, 51, 0.862);
+  border: none;
+}
+button.orange:hover{
+    transition: 2s;
+    transform: scale(1.2);
+    background-color: rgba(123, 111, 14, 0.862);
+    color: aliceblue;
+}
+button.green:hover{
+    transition: 2s;
+    transform: scale(1.2);
+    background-color: rgb(10, 99, 69);
+    color: aliceblue;
+}
+button.red:hover{
+    transition: 2s;
+    transform: scale(1.2);
+    background-color: rgb(135, 52, 4);
+    color: aliceblue;
+}
+button.blue:hover{
+    transition: 2s;
+    transform: scale(1.2);
+    background-color: rgb(18, 117, 170);
+    color: rgb(232, 238, 243);
+}
+
+
+
+td img {
+    border-radius: 50%;
+
+    
+}
+
+th:hover {
+    padding-top: 5px;
+    background-color: rgba(209, 220, 232, 0.719);
+    border-top: 2px solid rgb(15, 66, 138);
+    border-bottom: 4px groove rgb(10, 62, 110);
+    /* transition: 2s;
+    transform: scale(1.1); */
+    color: rgb(5, 48, 85);
+    /* border-radius: 10px; */
+}
+td.last-one{
+    border-bottom-left-radius: 10px;
+}
+td.last-two{
+    border-bottom-right-radius: 10px;
+}
