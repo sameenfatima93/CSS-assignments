@@ -1,0 +1,84 @@
+@import url(task2.css);
+body{
+   margin: 0px;
+   padding: 0px;
+    box-sizing: border-box;
+}
+*{
+ margin: auto;
+    padding: auto;
+}
+h1{
+    padding-top: 30px;
+    text-align: center;
+    margin: auto;
+}
+.main{
+    height: 300px;
+    width: 300px;
+    /* border: 2px solid goldenrod; */
+}
+.FIELD{
+    background-color: darkgrey;
+    padding: 40px;
+     position: relative;
+}
+label{
+   padding-bottom: 20px;
+    display: inline-block;
+    color: rgb(14, 12, 11);
+    text-decoration: solid;
+}
+#name{
+    height: 25px;
+    width: 200px;
+    padding-left: 40px;
+   
+}
+
+.person{
+    position:absolute;
+    right: 78%;
+    /* overflow:visible; */
+    
+}
+
+.boxes{
+    height: 800px;
+    width: 900px;
+    background-color: cadetblue;
+    
+
+}
+.box1{
+    height:200px;
+    width: 200px;
+    background-color: coral;
+    float: right;
+   margin-left:  6px;
+
+}
+.box2{
+    height:200px;
+    width: 200px;
+    background-color: chartreuse;
+    float: right;
+    margin-left:  6px;
+    
+}
+.box3{
+    height:200px;
+    width: 200px;
+    background-color: darkblue;
+    float: right;
+    margin-left:  6px;
+}
+.box4{
+    height:200px;
+    width: 200px;
+    background-color: darkmagenta;
+    float: right;
+    margin-left:  6px;
+}
+
+
