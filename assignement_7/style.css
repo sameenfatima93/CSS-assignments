@@ -1,0 +1,332 @@
+@font-face {
+    font-family: light;
+    src: url(static/Montserrat-ExtraLight.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+* {
+    color: aliceblue;
+}
+
+header {
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    padding-bottom: 27px;
+    position: fixed;
+    z-index: 1;
+
+}
+
+
+
+ul .nv {
+    display: inline-block;
+
+}
+
+.n {
+
+    position: absolute;
+    bottom: 18px;
+    right: 49%;
+}
+
+.a {
+    position: absolute;
+    bottom: 18px;
+    right: 42%;
+}
+
+.v {
+    position: absolute;
+    bottom: 18px;
+    right: 30%;
+}
+
+.all {
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+
+}
+
+.all:hover {
+    /* text-decoration: underline;
+    transform: scale(1.2, 1.2);
+    transition: all 3s ease; */
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    color: red;
+}
+
+.all:active {
+    color: rgb(231, 8, 8);
+}
+
+.bor-red {
+    height: 43px;
+    width: 130px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 1px solid white;
+    position: absolute;
+    right: 20px;
+    bottom: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.order:hover {
+    background: transparent;
+    border: 2px solid red;
+    transform: translateX(7px);
+    transition: all 1.7s ease-in-out;
+}
+
+.french {
+    position: absolute;
+    right: 14%;
+}
+
+.french:hover {
+    border: 2px solid red;
+}
+
+.order {
+    background-color: rgb(245, 20, 20);
+    border: none;
+    padding-bottom: 6px;
+
+
+}
+
+.arrow {
+    position: relative;
+    top: 6px;
+    left: 5px;
+}
+
+.logo {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+/* header end */
+.heer {
+    width: 100%;
+    vertical-align: middle;
+    margin-top: 5%;
+}
+
+.brand {
+    width: 100%;
+    height: 100%;
+    /* margin:20px  auto;
+    text-align: center; */
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.contaner {
+    width: 100%;
+    padding: 10px 20px 10px 20px;
+}
+
+.heading {
+    width: 700px;
+    margin: 30px auto;
+    font-size: 2.2em;
+    font-family: light;
+    text-align: center;
+}
+
+.font {
+    font-family: stencil;
+    font-size: 1.3em;
+}
+
+.para {
+    width: 700px;
+    margin: 30px auto;
+    text-align: center;
+    color: rgba(240, 248, 255, 0.621);
+
+}
+
+.list {
+    width: 100%;
+    text-align: center;
+}
+
+.card {
+    height: 130px;
+    width: 200px;
+    background-color: aliceblue;
+    display: inline-block;
+    margin: 40px 20px 0px 20px;
+}
+
+.card:hover {
+    transform: scale(1.1, 1.1);
+    transition: .5s ease-in-out;
+}
+
+.card-logo {
+    padding-top: 20px;
+    height: 100px;
+    width: 180px;
+    cursor: pointer;
+}
+
+.card-cont {
+    height: 330px;
+    width: 200px;
+    /* border: 2px solid red; */
+    display: inline-block;
+    margin: 0 20px;
+
+}
+
+.cont {
+    height: 43px;
+    width: 130px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 1px solid rgb(241, 235, 235);
+    /* position: absolute;
+    right: 20px;
+    bottom: 16px; */
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 15px;
+    position: relative;
+    left: 20px;
+    top: 40px;
+}
+
+.cont:hover {
+    background-color: aliceblue;
+    color: red;
+}
+
+/* franchice section */
+
+.franchice {
+    /* width: 100%;
+    height: 100%; */
+    /* margin:20px  auto;
+    text-align: center; */
+    display: block;
+    position: relative;
+    background:rgba(255, 255, 255, 0.06); ;
+    overflow: hidden;
+}
+.franch-cont{
+    background-image: url(images/bgimage.webp);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment:scroll;
+}
+.fr{
+    font-size: 1.25em;
+}
+
+.row1 {
+    font-size: 0; /* removes white space between inline-blocks */
+}
+
+.col1, .col2 {
+    display: inline-block;
+    height: 300px;
+    width: 40%;
+    vertical-align: top;
+    font-size: 16px; /* reset the font size */
+}
+
+.col1 {
+    /* background: rgb(13, 178, 7); */
+    margin-left: 50px;
+    padding-top: 20px;
+}
+
+.col2 {
+    background: rgb(245, 170, 7);
+    margin-left: 50px;
+}
+.small{
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(244, 75, 75);
+    letter-spacing: 6px;
+    /* line-height: 20px; */
+    display: inline-block;
+    /* margin-top: 30px !important; */
+    /* padding-top: -20px; */
+}
+.left-cor{
+    text-align: left;
+    font-size: 1.79em;
+    margin-top: -1px;
+}
+.lft-tx{
+    font-size: 1em;
+}
+.loct , .add{
+    margin-top: -8px;
+}
+.loct{
+    /* opacity: .5; */
+    color: rgba(245, 248, 251, 0.637);
+}
+.add{
+    /* opacity: .5; */
+    color: rgba(245, 248, 251, 0.637);
+}
+.phn , .ph{
+    color: rgba(245, 248, 251, 0.637);
+    margin-top: -10px;
+}
+.gd{
+    height: 43px;
+    width: 150px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 1px solid white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    font-size: 13px;
+    margin-top: 30px;
+ padding-bottom: 10px;
+}
+
+.gd:hover{
+      background: rgba(243, 55, 55, 0.941);
+      /* color: red; */
+    /* border: 2px solid #fffafa; */
+    border: none;
+    transform: translateX(7px);
+    transition: all .9s ease-in-out;
+}
+@media (max-width: 768px) {
+    .franchice {
+        padding: 32px 0px !important;
+    }
+    .brand{
+            padding: 32px 15px 0px 15px !important;
+        padding-bottom: 32px !important;
+        margin-bottom: 0px !important;
+        margin-top: 10px !important;
+    }
+}
