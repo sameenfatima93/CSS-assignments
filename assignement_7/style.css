@@ -16,7 +16,7 @@ body {
 
 header {
     height: 60px;
-    width: 100%;
+    width: 100vw;
     background-color: black;
     position: relative;
     padding-bottom: 27px;
@@ -181,6 +181,10 @@ ul .nv {
     transform: scale(1.1, 1.1);
     transition: .5s ease-in-out;
 }
+.img-crd:hover{
+    transform: scale(1.1, 1.1);
+    transition: .5s ease-in-out;
+}
 
 .card-logo {
     padding-top: 20px;
@@ -222,7 +226,7 @@ ul .nv {
 
 /* franchice section */
 
-.franchice {
+.franchice , .card-main {
     /* width: 100%;
     height: 100%; */
     /* margin:20px  auto;
@@ -247,7 +251,7 @@ ul .nv {
     font-size: 0; /* removes white space between inline-blocks */
 }
 
-.col1, .col2 {
+.col1, .col2 , .col1-1 , .col2-1 {
     display: inline-block;
     height: 300px;
     width: 40%;
@@ -260,10 +264,21 @@ ul .nv {
     margin-left: 50px;
     padding-top: 20px;
 }
+.col1-1 {
+
+    /* background: rgb(76, 194, 234); */
+    margin-left: 50px;
+    padding-top: 20px;
+}
 
 .col2 {
-    background: rgb(245, 170, 7);
+    /* background: rgb(245, 170, 7); */
     margin-left: 50px;
+}
+.col2-1 {
+    /* background: rgb(233, 245, 7); */
+    margin-left: 50px;
+    padding-top: 20px;
 }
 .small{
     text-transform: uppercase;
@@ -272,8 +287,18 @@ ul .nv {
     letter-spacing: 6px;
     /* line-height: 20px; */
     display: inline-block;
-    /* margin-top: 30px !important; */
-    /* padding-top: -20px; */
+    padding: 20px 0px;
+    
+}
+.small-1{
+  text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(244, 75, 75);
+    letter-spacing: 6px;
+    padding: 20px 0px;
+    /* line-height: 20px; */
+    display: inline-block;
+    
 }
 .left-cor{
     text-align: left;
@@ -319,6 +344,47 @@ ul .nv {
     transform: translateX(7px);
     transition: all .9s ease-in-out;
 }
+/* card section start */
+.card-wrapper {
+ text-align: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.crd  {
+   display: inline-block;
+  width: 320px; /* slightly less to allow margin */
+  margin: 1%;
+  height: 450px;
+  background:transparent;
+  /* border: 1px solid #999; */
+  vertical-align: top; 
+  text-align: center;
+  align-items: center;
+  border-radius: 12px;
+}
+.img-crd{
+     border-top-left-radius: 12px;
+     border-top-right-radius: 12px;
+     cursor: pointer;
+}
+.small-aery{
+    font-size: 1.20em;
+    margin-left: 50px;
+    
+}
+.last-right{
+    width: 470px;
+}
+.last-btn{
+    background-color: rgb(13, 172, 119);
+    border: none;
+}
+.last-btn:hover{
+background: transparent;
+border: 1px solid rgb(13, 172, 119);
+}
+
 @media (max-width: 768px) {
     .franchice {
         padding: 32px 0px !important;
