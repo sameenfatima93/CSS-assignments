@@ -2,17 +2,27 @@
     font-family: light;
     src: url(static/Montserrat-ExtraLight.ttf);
 }
+html{
+    width: 100%;
+}
 
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: black;
+    overflow-x: hidden;
 }
 
 * {
     color: aliceblue;
 }
+/* *,
+*::before,
+*::after {
+  outline: 1px solid red;
+} */
+
 
 header {
     height: 60px;
@@ -234,7 +244,7 @@ ul .nv {
     display: block;
     position: relative;
     background:rgba(255, 255, 255, 0.06); ;
-    overflow: hidden;
+    overflow: visible;
 }
 .franch-cont{
     background-image: url(images/bgimage.webp);
@@ -290,6 +300,9 @@ ul .nv {
     padding: 20px 0px;
     
 }
+.small-oppi{
+font-size: 10px;
+}
 .small-1{
   text-transform: uppercase;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -307,6 +320,7 @@ ul .nv {
 }
 .lft-tx{
     font-size: 1em;
+
 }
 .loct , .add{
     margin-top: -8px;
@@ -384,7 +398,104 @@ ul .nv {
 background: transparent;
 border: 1px solid rgb(13, 172, 119);
 }
+/* coming son branches card */
+.snp-b{
+    height:400px;
+    max-width:100% ;
+    /* background-color: rgb(17, 18, 18); */
+}
+.cnter{
+    text-align: center;
+    font-size: 38px;
+    color: aliceblue;
+    font-family: light;
+}
+.futuerplan{
+   height: 150vh;
+}
+.brecket{
+    font-size: 19px;
+}
+.cards-soon {
+  text-align: center;
+  color: black;
+}
 
+.soon-b{
+  display: inline-block;
+  width: 28%;
+  margin: 1%;
+  height: 200px;
+  background-color: #ffffff;
+  border: 1px solid #999;
+  vertical-align: top;
+  text-align: center;
+  transition: all 0.3s ease; /* 👈 Yeh transition lagayi */
+}
+
+.card:hover {
+  background-color: #f7f2f2fd;
+  transform: scale(1.05); 
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.pin-point{
+    height: 55px;
+    width: 55px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.opening-aera{
+    font-size: 19px;
+    color: black;
+    width: 250px;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+.opening-font{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-left: 6px;
+    
+}
+.soci{
+    height: 500px;
+
+}
+.sci{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
+}
+.soco-img{
+    height: 300px;
+    max-width: 100%;
+
+}
+.insta{
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.insta:hover{
+   transform: scale(1.05); 
+}
+.snp-footer{
+    /* position: relative; */
+    height: 500px;
+    max-width: 100%;
+}
+.ftr{
+    height: 500px;
+    width: 100%;
+    /* margin-top: -40px; */
+    /* position: absolute;
+    bottom: 45%; */
+
+}
 @media (max-width: 768px) {
     .franchice {
         padding: 32px 0px !important;
