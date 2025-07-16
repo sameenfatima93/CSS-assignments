@@ -1,0 +1,360 @@
+
+.flud-con,
+.mynv {
+  background-color: #ebf1ff;
+
+}
+
+.log-b {
+  text-decoration: underline;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.log-b:hover {
+  text-decoration: none;
+}
+
+.see-b {
+  height: 50px;
+  margin: 0px 15px;
+  width: 100px;
+  /* background-color: blue; */
+  /* border: 1px solid black; */
+  background-color: transparent;
+  border-radius: 30px;
+  color: black;
+  /* border-top-color: rgb(9, 152, 177) ;
+    border-left-color: rgb(17, 17, 179);
+    border-right-color: orange;
+    border-width: 5px;
+    border-radius: 30px;
+    border-bottom: none; */
+}
+
+.image-space img {
+  margin-right: 10px;
+}
+
+.three-boder-btn {
+  position: relative;
+  bottom: 5px;
+  right: 18px;
+}
+
+.three-boder-btn:hover {
+  transform: scale(1.1, 1.2);
+  transition: all .5s ease-in;
+}
+
+.first-lg {
+  position: absolute;
+  right: 0px;
+  top: 5px;
+  display: none;
+}
+
+.second-lg {
+  padding: 5px;
+  border-radius: 20px;
+  /* background-color: #870c0c; */
+  position: relative;
+  top: 9px;
+
+  /* padding-bottom: 20px; */
+}
+.bord{
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+.inp-sel{
+  width: 260px;
+  font-size: medium;
+}
+.inp-sr{
+  height: 43px;
+  margin-top: 5px;
+}
+.src-b{
+  height: 43px;
+  margin-top: 5px;
+}
+.list{
+  margin-top: 30px;
+  flex-wrap: nowrap;
+  /* flex-direction: row; */
+  gap: 20px;
+  justify-content:  flex-start;
+  margin-left: 70px;
+}
+.list>a{
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  font-weight: 400;
+}
+.list>a:hover{
+  color: rgba(36, 36, 227, 0.651);
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  gap: 50px;
+  margin: 20px 60px;
+
+}
+.card-image, .card{
+  height: 100px;
+  width: 100px;
+  object-fit: fill;
+}
+.card{
+  height: 170px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  border: none;
+  /* border: 2px solid red; */
+}
+.card>h4{
+  font-weight: 500;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+  margin: 10px auto;
+}
+.card-image:hover{
+  transform: skewX(17deg);
+  transition: all .6s ease-in-out;
+}
+.slide{
+  margin: 60px auto;
+}
+.card-img-top{
+  width: 275px;
+  height: 217px;
+}
+.text-seemore{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  height: 30px;
+  /* border: 2px solid yellow; */
+  margin: 20px 0px;
+}
+.text-seemore>a{
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: bold;
+}
+.text-seemore>a:hover{
+  text-decoration: underline;
+}
+.img-width{
+  width: 290px !important;
+}
+.footer-text{
+  font-size: 16px;
+  font-weight: bold;
+}
+.lenth{
+  height: 217px;
+}
+.lenth-house{
+  height: 217px;
+  overflow-y: hidden;
+}
+.price{
+  font-size: 17px;
+  font-weight: 700;
+  text-align: left;
+}
+.t-1{
+font-size: 17px;
+font-weight: 400;
+margin-top: 20px;
+}
+.t-2{
+  font-size: 15px;
+font-weight: 400;
+position: relative;
+right: 6px;
+}
+.t-3{
+   font-size: 13px;
+font-weight: 400;
+}
+.icon{
+  
+  height: 30px;
+  width: 30px;
+  border: 1px solid rgb(12, 12, 12);
+  border-radius: 50%;
+  object-fit: fill;
+  display: inline-block;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  text-align: center;
+  padding: 1px;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 990px) {
+  .navbar-collapse ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+  }
+  .mynv{
+    width: 1400px;
+    margin: 0px auto;
+  }
+.navbar {
+    background-color: #EBF1FF !important; /* Your light blue color */
+  }
+
+  .navbar-collapse {
+    background-color: #EBF1FF !important; /* Ensure dropdown bg is filled */
+    padding-bottom: 1rem; /* Optional spacing at bottom */
+  }
+
+  .navbar-collapse ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+  }
+
+  .navbar-collapse ul li {
+    width: 100%;
+    text-align: center;
+  }
+  
+
+  .navbar-collapse ul li {
+    text-align: center;
+    width: 100%;
+    padding: 4px;
+  }
+
+  .navbar-brand {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    display: show;
+  }
+
+  .first-lg {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    display: flex;
+  }
+
+  .first-lg>img {
+    height: 50px;
+  }
+.text-seemore{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+}
+  .second-lg {
+    display: none;
+  }
+
+  .btn {
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+  }
+
+  .three-boder-btn {
+    border-radius: 30px;
+    /* overflow: hidden; */
+  }
+
+  .flud-con,
+  .mynv {
+    height: auto;
+  }
+  .d-flex{
+    flex-direction: column-reverse;
+  }
+  .inp-sel{
+  width: 100%;
+  font-size: medium;
+}
+.fa-solid{
+  display: none;
+}
+.cards-alignmnet{
+  width: 400px;
+  margin: 0px 30%;
+  /* border: 3px solid yellowgreen; */
+}
+/* .cards-align-conten>img{
+display: flex;
+flex-direction: column;
+width: 1200px;
+justify-content: center;
+} */
+}
+
+
+@media only screen and (max-width:1440px) {
+  .bg-remove{
+    background: none !important;
+  }
+}
+
+@media only screen and (max-width:1280px) {
+
+  .flud-con,
+  .mynv {
+    background-color: #ebf1ff;
+    padding: 0px;
+    height: 70px !important;
+
+  }
+   .drp-nv .container {
+  max-width: 1140px; /* Or whatever width you want */
+} 
+
+  .nv-hight {
+    /* border: 3px solid black; */
+    /* padding: -200px; */
+    height: 60px;
+  }
+
+  .second-lg {
+
+    padding: 0px 7px;
+    border-radius: 20px;
+    background-color: #fdfdfd;
+    position: relative;
+    top: 10px;
+    align-items: center;
+
+    /* padding-bottom: 20px; */
+  }
+
+  .second-lg>img {
+    height: 70px;
+    /* padding-bottom: 3px; */
+  }
+}
+@media (max-width: 768px) {
+  .responsiv {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+

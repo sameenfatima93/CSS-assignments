@@ -1,0 +1,754 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <script src="https://kit.fontawesome.com/28fe231537.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container-fluid flud-con ">
+    <div class="container mynv">
+      <nav class="navbar  navbar-expand-lg nv-hight  ">
+        <!-- <div class="container-fluid"> -->
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand first-lg  " href="#"><img src="images/olx-svgrepo-com.svg" alt="" height="80px"></a>
+        <div class="collapse drp-nv  navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand second-lg " href="#"><img src="images/olx-svgrepo-com.svg" alt="" height="60px"></a>
+          <ul class="navbar-nav me-auto pe-3 mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link  image-space active" aria-current="page" href="#"> <img src="images/nav-car.png" alt=""
+                  height="30px"> Motors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link image-space active" href="#"> <img src="images/nav-house.png" alt=""
+                  height="30px">Property</a>
+            </li>
+            <!-- <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li> -->
+          </ul>
+          <form class="d-flex justify-content-center" role="search">
+            <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/> -->
+            <button class="btn log-b" type="submit">login</button>
+            <button class="btn see-b" type="submit"> <img class="three-boder-btn"
+                src="images/Screenshot 2025-07-14 093614.png" alt="button" height="50px" width="100px"> </button>
+          </form>
+        </div>
+    </div>
+    </nav>
+  </div>
+
+  <header class="container bg-remove  p-0">
+    <form class="d-flex gap-2 container  form-control bord">
+      <div class="row g-3 ">
+        <select class=" form-select inp-sel form-select-lg mt-4 col-lg-5 col-md-6 col-sm-12 pe-8 "
+          aria-label="Small select example">
+          <!-- <option selected>Open this select menu</option> -->
+          <option value="" disabled selected>📍 Select The City </option>
+          <option value="Islamabad">Islamabad</option>
+          <option value="" disabled>Punjab Cities</option>
+          <option value="Ahmed Nager Chatha">Ahmed Nager Chatha</option>
+          <option value="Ahmadpur East">Ahmadpur East</option>
+          <option value="Ali Khan Abad">Ali Khan Abad</option>
+          <option value="Alipur">Alipur</option>
+          <option value="Arifwala">Arifwala</option>
+          <option value="Attock">Attock</option>
+          <option value="Bhera">Bhera</option>
+          <option value="Bhalwal">Bhalwal</option>
+          <option value="Bahawalnagar">Bahawalnagar</option>
+          <option value="Bahawalpur">Bahawalpur</option>
+          <option value="Bhakkar">Bhakkar</option>
+          <option value="Burewala">Burewala</option>
+          <option value="Chillianwala">Chillianwala</option>
+          <option value="Chakwal">Chakwal</option>
+          <option value="Chichawatni">Chichawatni</option>
+          <option value="Chiniot">Chiniot</option>
+          <option value="Chishtian">Chishtian</option>
+          <option value="Daska">Daska</option>
+          <option value="Darya Khan">Darya Khan</option>
+          <option value="Dera Ghazi Khan">Dera Ghazi Khan</option>
+          <option value="Dhaular">Dhaular</option>
+          <option value="Dina">Dina</option>
+          <option value="Dinga">Dinga</option>
+          <option value="Dipalpur">Dipalpur</option>
+          <option value="Faisalabad">Faisalabad</option>
+          <option value="Ferozewala">Ferozewala</option>
+          <option value="Fateh Jhang">Fateh Jang</option>
+          <option value="Ghakhar Mandi">Ghakhar Mandi</option>
+          <option value="Gojra">Gojra</option>
+          <option value="Gujranwala">Gujranwala</option>
+          <option value="Gujrat">Gujrat</option>
+          <option value="Gujar Khan">Gujar Khan</option>
+          <option value="Hafizabad">Hafizabad</option>
+          <option value="Haroonabad">Haroonabad</option>
+          <option value="Hasilpur">Hasilpur</option>
+          <option value="Haveli Lakha">Haveli Lakha</option>
+          <option value="Jatoi">Jatoi</option>
+          <option value="Jalalpur">Jalalpur</option>
+          <option value="Jattan">Jattan</option>
+          <option value="Jampur">Jampur</option>
+          <option value="Jaranwala">Jaranwala</option>
+          <option value="Jhang">Jhang</option>
+          <option value="Jhelum">Jhelum</option>
+          <option value="Kalabagh">Kalabagh</option>
+          <option value="Karor Lal Esan">Karor Lal Esan</option>
+          <option value="Kasur">Kasur</option>
+          <option value="Kamalia">Kamalia</option>
+          <option value="Kamoke">Kamoke</option>
+          <option value="Khanewal">Khanewal</option>
+        </select>
+      </div>
+      <!-- <input class="form-control form-control-lg inp-sel mt-4 ms-2 col-lg-7 col-md-6 col-sm-12 pe-8 " aria-label="Large select example" type="search" name="search" id="search"> -->
+      <div class="input-group ms-3">
+        <input type="search" class="form-control  ms-2 col-lg-7 col-md-6 col inp-sr "
+          placeholder="Find Cars, Mobile Phones And More...  " aria-label="Recipient’s username">
+        <button class="btn btn-dark src-b" type="submit"><i class="fa-solid fa-magnifying-glass"></i> Search</button>
+      </div>
+
+
+    </form>
+  </header>
+
+  </div>
+  <section class="list d-flex ">
+    <a style="font-weight: bold;" href="#">All categories ∨ </a>
+    <a href="#"> Mobile Phones </a>
+    <a href="#"> Cars </a>
+    <a href="#">Motorcycles</a>
+    <a href="#">Houses</a>
+    <a href="#">Video-Audios</a>
+    <a href="#">Tablets</a>
+    <a href="#">Land & Plots</a>
+    <a href="#">jobs</a>
+  </section>
+
+  <div id="carouselExampleAutoplaying" class="container-fluid carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/slide1.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/slie2.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/slide1.webp" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+    <div class="contaoner">
+      <div class="cards ">
+        <div class="card">
+          <img class="card-image" src="images/bike.png" alt="">
+          <h4>Bikes</h4>
+        </div>
+        <div class="card">
+          <img class="card-image" src="images/camera.png" alt="">
+          <h4>Electronics & Home..</h4>
+        </div>
+        <div class="card">
+          <img class="card-image" src="images/car.png" alt="">
+          <h4>Vehicles</h4>
+        </div>
+        <div class="card">
+          <img class="card-image" src="images/furniture.png" alt="">
+          <h4>Furniture & Home Decor</h4>
+        </div>
+        <div class="card">
+          <img class="card-image" src="images/fashion.png" alt="">
+          <h4>Fashion & Beauty</h4>
+
+        </div>
+        <div class="card">
+          <img class="card-image" src="images/books.png" alt="">
+          <h4>Books, Sports & Hobbies</h4>
+        </div>
+        <div class="card">
+          <img class="card-image" src="images/house.png" alt="">
+          <h4>Property for Sale</h4>
+        </div>
+        <div class="card">
+          <img class="card-image" src="images/kids.png" alt="">
+          <h4>kids</h4>
+        </div>
+        <div class="card">
+          <img class="card-image" src="images/job.png" alt="">
+          <h4>Jobs</h4>
+        </div>
+        <div class="card">
+          <img class="card-image" src="images/buisness.png" alt="">
+          <h4>Business, Industrial &</h4>
+        </div>
+        <div class="card">
+          <img class="card-image" src="images/animals.png" alt="">
+          <h4>Animals</h4>
+        </div>
+        <div class="card">
+          <img class="card-image" src="images/services.png" alt="">
+          <h4>Services</h4>
+        </div>
+        <div class="card">
+          <img class="card-image" src="images/rent.png" alt="">
+          <h4>Property for Rent</h4>
+        </div>
+        <div class="card">
+          <img class="card-image" src="images/mobile.png" alt="">
+          <h4>Mobiles</h4>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container responsiv">
+      <div class="text-seemore container-fluid">
+        <h3 class="float-start">cars</h3>
+        <a class="float-end" href="">View more</a>
+      </div>
+      <div class="row d-flex justify-content-center align-items-stretch g-3 cards-alignmnet">
+
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-3    cards-align-conten">
+          <div class="card h-100 img-width">
+            <img src="images/car-1.webp" class="card-img-top" alt="car">
+            <div class="card-body price">
+              <span>Rs 72.90 Lacs</span>
+              <i class="fa-regular fa-heart float-end"></i>
+              <p class="card-text t-1">Toyota Yaris X hatchback 2022-2025.</p>
+              <p class="card-text t-2">📍Panian, meerpur.</p>
+              <p class="card-text t-3">7 days ago.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-3   ">
+          <div class="card h-100 img-width">
+            <img src="images/car-2red.webp" class="card-img-top lenth" alt="car">
+            <div class="card-body price">
+              <span>Rs 32.90 Lacs</span>
+              <i class="fa-regular fa-heart float-end"></i>
+              <p class="card-text t-1">PakZon Electric PE-70G 2025.</p>
+              <p class="card-text t-2">📍Panian, Haripur.</p>
+              <p class="card-text t-3">5 days ago.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-3   ">
+          <div class="card h-100 img-width">
+            <img src="images/car-3.webp" class="card-img-top lenth" alt="car">
+            <div class="card-body price">
+              <span>Rs 82.90 Lacs</span>
+              <i class="fa-regular fa-heart float-end"></i>
+              <p class="card-text t-1">BYD ATTO Atto 3 SR 2025 For Sale.</p>
+              <p class="card-text t-2">📍DHA Phase 6, Karachi.</p>
+              <p class="card-text t-3">4 days ago.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-3   ">
+          <div class="card h-100 img-width">
+            <img src="images/car-4th.webp" class="card-img-top" alt="car">
+            <div class="card-body price">
+              <span>Rs 62.90 Lacs</span>
+              <i class="fa-regular fa-heart float-end"></i>
+              <p class="card-text t-1">Toyota Aqua 2014/18.</p>
+              <p class="card-text t-2">📍Wapda Town Phase 1, Lahore.</p>
+              <p class="card-text t-3">5 days ago.</p>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+    <div class="container responsiv">
+      <div class="text-seemore container-fluid">
+        <h3 class="float-start">Bikes & Motorcycles</h3>
+        <a class="float-end" href="">View more</a>
+      </div>
+      <div class="row d-flex justify-content-center align-items-stretch g-3 cards-alignmnet ">
+
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-3   ">
+          <div class="card h-100 img-width">
+            <img src="images/bike-1.1.webp" class="card-img-top " alt="car">
+            <div class="card-body price">
+              <span>Rs 8 lac </span>
+              <i class="fa-regular fa-heart float-end"></i>
+              <p class="card-text t-1">Original Taro GP 350cc Model 2018 | Sigma Valentino Bike.</p>
+              <p class="card-text t-2">📍rawalpindi.</p>
+              <p class="card-text t-3">2days ago.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-3   ">
+          <div class="card h-100 img-width">
+            <img src="images/bike-2.webp" class="card-img-top lenth" alt="car">
+            <div class="card-body price">
+              <span>Rs 2.70 Lac</span>
+              <i class="fa-regular fa-heart float-end"></i>
+              <p class="card-text t-1">Hi Speed Infinity 150 2019.</p>
+              <p class="card-text t-2">📍Pindi Bahauddin, Mandi Bahauddin.</p>
+              <p class="card-text t-3">1 days ago.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-3   ">
+          <div class="card h-100 img-width">
+            <img src="images/bike-3.webp" class="card-img-top lenth" alt="car">
+            <div class="card-body price">
+              <span>Rs 2.60 Lac</span>
+              <i class="fa-regular fa-heart float-end"></i>
+              <p class="card-text t-1">Honda CB 150F | Model 2017 | Urgent Sale | Black Colour Bike |.</p>
+              <p class="card-text t-2">📍Fatehpur, Layyah.</p>
+              <p class="card-text t-3">4 days ago.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-3   ">
+          <div class="card h-100 img-width">
+            <img src="images/bike-4.webp" class="card-img-top" alt="car">
+            <div class="card-body price">
+              <span>Rs 4.20 Lacs</span>
+              <i class="fa-regular fa-heart float-end"></i>
+              <p class="card-text t-1">Honda CB-150F | Model 2021 | Special Edition | Total Genuine.</p>
+              <p class="card-text t-2">📍Asghar Mall Road, Rawalpindi.</p>
+              <p class="card-text t-3">2 days ago.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container responsiv">
+      <div class="text-seemore container-fluid">
+        <h3 class="float-start">Mobile Phones</h3>
+        <a class="float-end" href="">View more</a>
+      </div>
+      <div class="row d-flex justify-content-center align-items-stretch g-3 cards-alignmnet ">
+
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-3   ">
+          <div class="card h-100 img-width">
+            <img src="images/mobil-1.webp" class="card-img-top lenth" alt="car">
+            <div class="card-body price">
+              <span>Rs 18,499 </span>
+              <i class="fa-regular fa-heart float-end"></i>
+              <p class="card-text t-1">Oppo F15 8/128 oppo reno z 8gb 256gb.</p>
+              <p class="card-text t-2">📍Gulberg, Lahore.</p>
+              <p class="card-text t-3">2 weeks ago.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-3   ">
+          <div class="card h-100 img-width">
+            <img src="images/mobile-2.3.webp" class="card-img-top lenth" alt="car">
+            <div class="card-body price">
+              <span>Rs 2.40 Lac</span>
+              <i class="fa-regular fa-heart float-end"></i>
+              <p class="card-text t-1">Iphone 16 pro max 256gb JV Box Pack Non Active.</p>
+              <p class="card-text t-2">📍7th Avenue, Islamabad.</p>
+              <p class="card-text t-3">4 days ago.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-3   ">
+          <div class="card h-100 img-width">
+            <img src="images/mobile-3.2.webp" class="card-img-top lenth" alt="car">
+            <div class="card-body price">
+              <span>Rs 1.10 Lac</span>
+              <i class="fa-regular fa-heart float-end"></i>
+              <p class="card-text t-1">iphone 15 Under Apple Warranty.</p>
+              <p class="card-text t-2">📍Rana Town, Lahore.</p>
+              <p class="card-text t-3">5 days ago.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-3   ">
+          <div class="card h-100 img-width">
+            <img src="images/mobile-4.2.webp" class="card-img-top lenth" alt="car">
+            <div class="card-body price">
+              <span>Rs 2.50 Lacs</span>
+              <i class="fa-regular fa-heart float-end"></i>
+              <p class="card-text t-1">iphone 13 pro max , 256gb , Pta approved , battery 87%.</p>
+              <p class="card-text t-2">📍Allama Iqbal Town - Huma Block, Lahore.</p>
+              <p class="card-text t-3">3 days ago.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container responsiv">
+      <div class="text-seemore container-fluid">
+        <h3 class="float-start">Houses</h3>
+        <a class="float-end" href="">View more</a>
+      </div>
+      <div class="row d-flex justify-content-center align-items-stretch g-3 cards-alignmnet ">
+
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-3   ">
+          <div class="card h-100 img-width">
+            <img src="images/house-1.1.webp" class="card-img-top lenth-house" alt="car">
+            <div class="card-body price">
+              <span>Rs 4.15 Crore </span>
+              <i class="fa-regular fa-heart float-end"></i>
+              <p class="card-text t-1">BRAND NEW DOUBLE UNIT HOUSE FOR SALE BAHRIA ENCLAVE ISB.</p>
+              <p class="card-text t-2">📍Bahria Enclave - Sector J, Islamabad.</p>
+              <p class="card-text t-3">5 days ago.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-3   ">
+          <div class="card h-100 img-width">
+            <img src="images/house-2.2.webp" class="card-img-top lenth" alt="car">
+            <div class="card-body price">
+              <span>Rs 5.25 Crore</span>
+              <i class="fa-regular fa-heart float-end"></i>
+              <p class="card-text t-1">A Palatial Residence For Sale In I-9/4 Islamabad.</p>
+              <p class="card-text t-2">📍I-9/4, Islamabad.</p>
+              <p class="card-text t-3">6 days ago.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-3   ">
+          <div class="card h-100 img-width">
+            <img src="images/house-3.webp" class="card-img-top lenth" alt="car">
+            <div class="card-body price">
+              <span>Rs 7.35 Crore</span>
+              <i class="fa-regular fa-heart float-end"></i>
+              <p class="card-text t-1">Slightly Used House For Sale In Bahira Town Phase 6.</p>
+              <p class="card-text t-2">📍Bahria Town Phase 6, Rawalpindi.</p>
+              <p class="card-text t-3">4 days ago.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-3   ">
+          <div class="card h-100 img-width">
+            <img src="images/house-4.webp" class="card-img-top lenth" alt="car">
+            <div class="card-body price">
+              <span>Rs 3.50 Crore</span>
+              <i class="fa-regular fa-heart float-end"></i>
+              <p class="card-text t-1">10 Marla Like New House for Sale in Bahria Town Lahore | Gas Connected & Near
+                Park..</p>
+              <p class="card-text t-2">📍Bahria Town - Block CC, Lahore.</p>
+              <p class="card-text t-3">2 days ago.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container responsiv">
+      <div class="text-seemore container-fluid">
+        <h3 class="">Video-Audios</h3>
+        <a class="" href="">View more</a>
+      </div>
+      <div class="row d-flex justify-content-center align-items-stretch g-3 cards-alignmnet">
+
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-3   ">
+          <div class="card h-100 img-width">
+            <img src="images/video-1.webp" class="card-img-top lenth-house" alt="car">
+            <div class="card-body price">
+              <span>Rs 11,000 </span>
+              <i class="fa-regular fa-heart float-end"></i>
+              <p class="card-text t-1">Walkie Talkie | Wireless Set Baofeng Uv-5rA Two Way Radio |.</p>
+              <p class="card-text t-2">📍Hall Road, LahoreBahria Enclave - Sector J, Islamabad.</p>
+              <p class="card-text t-3">4 weeks ago.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-3   ">
+          <div class="card h-100 img-width">
+            <img src="images/video-2.webp" class="card-img-top lenth" alt="car">
+            <div class="card-body price">
+              <span>Rs 49,000</span>
+              <i class="fa-regular fa-heart float-end"></i>
+              <p class="card-text t-1">Sony 3D Blu-ray home theater with Wi-Fi and smar function 1000 watt.</p>
+              <p class="card-text t-2">📍G-15/1, Islamabad.</p>
+              <p class="card-text t-3">4 days ago.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-3   ">
+          <div class="card h-100 img-width">
+            <img src="images/video-3.webp" class="card-img-top lenth" alt="car">
+            <div class="card-body price">
+              <span>Rs 9,999</span>
+              <i class="fa-regular fa-heart float-end"></i>
+              <p class="card-text t-1">Audio Video Conference Solution| Logitech| Aver | Poly |Yealink.</p>
+              <p class="card-text t-2">📍Gulshan-e-Iqbal, Karachi.</p>
+              <p class="card-text t-3">1 days ago.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-3   ">
+          <div class="card h-100 img-width">
+            <img src="images/video-4.jpg" class="card-img-top lenth" alt="car">
+            <div class="card-body price">
+              <span>Rs 13,000</span>
+              <i class="fa-regular fa-heart float-end"></i>
+              <p class="card-text t-1">Echo Dot , Echo Show , echo, alexa , nest mini nest hub all smart spea</p>
+              <p class="card-text t-2">📍Bahria Town, Lahore.</p>
+              <p class="card-text t-3">2 weeks ago.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container responsiv">
+      <div class="text-seemore container-fluid">
+        <h3 class="">Tablets</h3>
+        <a class="" href="">View more</a>
+      </div>
+      <div class="row d-flex justify-content-center align-items-stretch g-3 cards-alignmnet">
+
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-3   ">
+          <div class="card h-100 img-width">
+            <img src="images/tablate-1.webp" class="card-img-top lenth-house" alt="car">
+            <div class="card-body price">
+              <span>Rs 12,000 </span>
+              <i class="fa-regular fa-heart float-end"></i>
+              <p class="card-text t-1">tablet/ tabs/ gaming tab/ Samsung tab/kids tab/Lenovo tab/PUBG tab/.</p>
+              <p class="card-text t-2">📍Kacheri Road, Multan.</p>
+              <p class="card-text t-3">4 weeks ago.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-3   ">
+          <div class="card h-100 img-width">
+            <img src="images/tablate-2.webp" class="card-img-top lenth" alt="car">
+            <div class="card-body price">
+              <span>Rs 1 lac</span>
+              <i class="fa-regular fa-heart float-end"></i>
+              <p class="card-text t-1">Samsung Tab S9 FE /Galaxy S10 FE/ 06/128GB.</p>
+              <p class="card-text t-2">📍Gulberg 3, Lahore.</p>
+              <p class="card-text t-3">2 days ago.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-3   ">
+          <div class="card h-100 img-width">
+            <img src="images/tablate-3.webp" class="card-img-top lenth" alt="car">
+            <div class="card-body price">
+              <span>Rs 7,999</span>
+              <i class="fa-regular fa-heart float-end"></i>
+              <p class="card-text t-1">Tabs Best Brands available for Kids, Home use, Official with guarantee.</p>
+              <p class="card-text t-2">📍Tabs Best Brands available for Kids, Home use, Official with guarantee.</p>
+              <p class="card-text t-3">6 days ago.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-3   ">
+          <div class="card h-100 img-width">
+            <img src="images/tablate-4.webp" class="card-img-top lenth" alt="car">
+            <div class="card-body price">
+              <span>Rs 2.85 Lac</span>
+              <i class="fa-regular fa-heart float-end"></i>
+              <p class="card-text t-1">Samsung Galaxy Tab S10 Ultra Wi-Fi (12GB + 512GB) X920</p>
+              <p class="card-text t-2">📍Bahria Town, Lahore.</p>
+              <p class="card-text t-3">4 weeks ago.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container responsiv">
+      <div class="text-seemore container-fluid">
+        <h3 class="">Jobs</h3>
+        <a class="" href="">View more</a>
+      </div>
+      <div class="row d-flex justify-content-center align-items-stretch g-3 cards-alignmnet">
+
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-3   ">
+          <div class="card h-100 img-width">
+            <img src="images/job-1.webp" class="card-img-top lenth-house" alt="car">
+            <div class="card-body price">
+              <!-- <span>Rs 12,000 </span> -->
+              <i class="fa-regular fa-heart float-end"></i>
+              <p class="card-text t-1">Driver jobs , Bike Rider Jobs , Company Work Visa , Jobs in Saudia</p>
+              <p class="card-text t-2">📍Bahria Town Rawalpindi, Rawalpindi.</p>
+              <p class="card-text t-3">2 weeks ago.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-3   ">
+          <div class="card h-100 img-width">
+            <img src="images/job-2.jpg" class="card-img-top lenth" alt="car">
+            <div class="card-body price">
+              <!-- <span>Rs 1 lac</span> -->
+              <i class="fa-regular fa-heart float-end"></i>
+              <p class="card-text t-1">Fire alarm system Engineer.</p>
+              <p class="card-text t-2">📍Gulshan-e-Iqbal, Karachi.</p>
+              <p class="card-text t-3">2 days ago.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-3   ">
+          <div class="card h-100 img-width">
+            <img src="images/job-3.webp" class="card-img-top lenth" alt="car">
+            <div class="card-body price">
+              <!-- <span>Rs 7,999</span> -->
+              <i class="fa-regular fa-heart float-end"></i>
+              <p class="card-text t-1">Online Part time/full time/home job/Assignments/Typing/Data entry/Ads </p>
+              <p class="card-text t-2">📍AGHOSH, Islamabad.</p>
+              <p class="card-text t-3">4 days ago.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-3   ">
+          <div class="card h-100 img-width">
+            <img src="images/job-4.webp" class="card-img-top lenth" alt="car">
+            <div class="card-body price">
+              <!-- <span>Rs 2.85 Lac</span> -->
+              <i class="fa-regular fa-heart float-end"></i>
+              <p class="card-text t-1">Data Entry Job / Typing Job / Assignment Job / Online Job</p>
+              <p class="card-text t-2">📍Reta Plot, Karachi.</p>
+              <p class="card-text t-3">2 weeks ago.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="imag">
+        <img src="images/bigimage-last.png" alt="" class="big" width="1200px">
+      </div>
+    </div>
+
+    <div class="container">
+      <footer class="py-5">
+        <div class="row d-flex justify-content-around">
+          <div class="col-6 col-md-2 mb-3">
+            <h5 class="footer-text">Popular Categories</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Cars</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Flats for rent</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Mobile Phones</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Jobs</a></li>
+              <!-- <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li> -->
+            </ul>
+          </div>
+          <div class="col-6 col-md-2 mb-3">
+            <h5 class="footer-text">Trending Searches</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Bikes</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Watches</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Books</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Dogs</a></li>
+              <!-- <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li> -->
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5 class="footer-text">About Us</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About Dubizzle Group</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">OLX Blog</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Contact Us</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">OLX for Businesses</a></li>
+              <!-- <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li> -->
+            </ul>
+          </div>
+           <div class="col-6 col-md-2 mb-3">
+            <h5 class="footer-text">OLX</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Help</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Sitemap</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Terms of use</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Privacy Policy</a></li>
+              <!-- <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li> -->
+            </ul>
+          </div>
+          <div class="col-6 col-md-2 mb-3">
+            <h5 class="footer-text">Follow Us</h5>
+
+            <div class="icon">
+            <i class="fa-brands fa-x-twitter"></i>
+            </div>
+            <div class="icon">
+            <i class="fa-brands fa-square-facebook"></i>
+            </div>
+            <div class="icon">
+            <i class="fa-brands fa-youtube"></i>
+            </div>
+            <div class="icon">
+            <i class="fa-brands fa-instagram"></i>
+            </div>
+          
+          </div>
+        </div>
+        <div class="container-fluid d-flex flex-column flex-sm-row justify-content-end bg-black text-light py-0 my-1 border-top">
+          <p>© 2025 Company, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-body-emphasis" href="#" aria-label="Instagram"><svg class="bi" width="24"
+                  height="24">
+                  <use xlink:href="#instagram"></use>
+                </svg></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#" aria-label="Facebook"><svg class="bi" width="24"
+                  height="24" aria-hidden="true">
+                  <use xlink:href="#facebook"></use>
+                </svg></a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
