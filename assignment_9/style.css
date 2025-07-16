@@ -203,6 +203,7 @@ font-weight: 400;
   align-items: center;
   justify-content: center;
 }
+
 @media (max-width: 990px) {
   .navbar-collapse ul {
     width: 100%;
